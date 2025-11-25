@@ -175,6 +175,8 @@
             letter-spacing: 2px;
             color: #d4af37;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 100%;
         }
 
         .invitation-body {
@@ -484,16 +486,17 @@
                 display: none;
             }
             
+            /* Ocultamos el header de invitación en desktop cuando estamos en móvil */
+            .invitation-header {
+                display: none;
+            }
+            
             .graduate-name {
                 display: none;
             }
             
             .invitation-content, .side-panel {
                 padding: 25px 20px;
-            }
-            
-            .invitation-header h1 {
-                font-size: 1.5rem;
             }
             
             .invitation-body p {
@@ -542,10 +545,6 @@
             
             .invitation-content, .side-panel {
                 padding: 20px 15px;
-            }
-            
-            .invitation-header h1 {
-                font-size: 1.3rem;
             }
             
             .invitation-body p {
@@ -621,7 +620,7 @@
                     <div class="invitation-body">
                         <p>Por favor acompañanos a una celebración en honor a la</p>
                         <p>graduación de Leah.</p>
-                        <p>Tu presencia significaría mucho para nosotros.</p>
+                        <p>Tu presencia significaría el mundo para nosotros.</p>
                     </div>
                     
                     <div class="date-section">
@@ -631,11 +630,11 @@
                     </div>
                     
                     <div class="location">
-                        <p>Manuel Antonio, Rest. Los Lirios</p>
+                        <p>123 Anywhere St., Any City</p>
                     </div>
                     
                     <div class="rsvp">
-                        <p>Confirmacion +506 8333 5665</p>
+                        <p>RSVP +123-456-7890</p>
                     </div>
                 </div>
                 
@@ -644,7 +643,7 @@
                     <div class="logo-container">
                         <div class="logo-title">Ecoturístico del Pacífico</div>
                         <div class="logo-acronym">CEP</div>
-                        <div class="logo-year">2025</div>
+                        <div class="logo-year">2000</div>
                         <div class="logo-system">Sistema Educativo</div>
                         <div class="logo-type">Educativo</div>
                     </div>
@@ -652,9 +651,9 @@
                     <div class="qr-section">
                         <div class="qr-placeholder">
                             <!-- Reemplaza el src con la ruta correcta de tu QR -->
-                            <img src="qr.png" alt="Código QR" class="qr-image">
+                            <img src="qr.jpg" alt="Código QR" class="qr-image">
                         </div>
-                        <div class="qr-label">Confirma la Invitacion</div>
+                        <div class="qr-label">Escanea para más detalles</div>
                     </div>
                     
                     <div class="accompaniment-section">
